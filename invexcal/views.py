@@ -252,7 +252,7 @@ def update_data(static,dynamic,id):
 
 
 @api_view(['POST','GET'])
-def save(request):
+def saved(request):
     static = request.data['static']
     dynamic = request.data['dynamic']
     id = static.get('id')
